@@ -1,0 +1,16 @@
+<div class="card-columns">
+	<div class="card" *ngFor="let item of items" (click)="select(item)">
+		<img class="card-img-top" src="{{item.Url}}" alt="Product Image">
+		<div class="card-header">
+			{{item.Name}}
+		</div>
+		<div class="card-block">
+			<p>{{item.Quantity}}&nbsp;{{item.Price}}</p>
+			<span class="app-action">
+        <div class="btn btn-primary"><i class="fa fa-heart">favorite</i></div>
+        <div class="btn btn-primary" (click)="delete(item)"><i class="fa fa-delete">delete</i></div>
+        <div class="btn btn-primary"><i class="fa fa-edit">edit</i></div>
+	    </span>
+		</div>
+	</div>
+</div>
