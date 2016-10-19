@@ -1,4 +1,4 @@
-# Angular2DevelopmentCLI
+# MyHome 5
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.11-webpack.8.
 
@@ -45,4 +45,4 @@ https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template
 
 ## Copyright and license
 
-copyright 2016 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/blob/master/LICENSE).
+copyright 2016 tsc17.com. Code released under [the MIT license](https://github.com/htschan/MyHome5/blob/master/LICENSE).
